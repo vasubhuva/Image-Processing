@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture("Videos/onzanimez.mp4")
+cap = cv2.VideoCapture("Image-Processing\\Videos\\onzanimez.mp4")
 # cap = cv2.VideoCapture(0)
 print("Cap", cap)
 
