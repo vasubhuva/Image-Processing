@@ -7,7 +7,7 @@ img2=imagehash.average_hash(Image.open("Image-Processing\\OutputImages\\flip4.pn
 diff=img1-img2
 # print(diff)
 
-# original image and gray converted image will be considered as same 
+# original image and it's gray converted image will be considered as same 
 # converted to other colors will be considered as different
 if img1==img2:
     print("same")
