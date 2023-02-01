@@ -1,7 +1,7 @@
 import cv2
 
 img1=cv2.imread("B:\\sem4\\Image-Processing\\Images\\1296932.png")
-img1=cv2.resize(img1,(1000,700))\
+img1=cv2.resize(img1,(1000,700))
     
 # we can pass 0,1,-1 as second parameter it will change the direction of image
 img1=cv2.flip(img1,0) 
