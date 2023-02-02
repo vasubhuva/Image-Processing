@@ -37,5 +37,12 @@ img=cv2.ellipse(img,(700,650),(50,50),0,0,180,192,5)
 
 
 cv2.imshow("x",img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
+
+k=cv2.waitKey(0)
+
+if k==ord("s"):
+    cv2.imwrite("B:\\sem4\\Image-Processing\\OutputImages\\drawing.png",img)
+else:
+    cv2.destroyAllWindows()
