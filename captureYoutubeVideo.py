@@ -1,10 +1,10 @@
 import cv2
 import pafy
 
-url="https://www.youtube.com/watch?v=giccudEmap4&ab_channel=creimamkf"
+url="https://www.youtube.com/watch?v=INnuvvp8_0w"
 data=pafy.new(url)
 data=data.getbest(preftype="mp4")
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture()
 
 cap.open(data.url)
 
